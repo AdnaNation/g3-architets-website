@@ -20,7 +20,8 @@
     cursor: pointer;
 }
 
-.text-description {
+.text-description,
+.text-light-grey {
     color: #727272;
     font-size: 1rem;
     font-weight: 400;
@@ -62,7 +63,7 @@ nav li a {
 
 /* banner styles */
 .banner-content {
-    max-width: 800px;
+    max-width: 900px;
     text-align: center;
     margin: 0 auto;
 
@@ -81,7 +82,7 @@ nav li a {
 
 /* main styles */
 main {
-    max-width: 1440px;
+    max-width: 840px;
     margin: 70px auto;
 }
 
@@ -89,20 +90,27 @@ main {
 .teams-container {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .teams-img-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
+    width: 50%;
+    padding-left: 30px;
 
 }
 
+.teams-img-container img {
+    width: 100%;
+}
 
 
 .teams-content {
     padding-left: 70px;
     padding-right: 70px;
+    width: 50%;
 
 
 }
