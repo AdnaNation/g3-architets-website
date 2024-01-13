@@ -238,6 +238,22 @@ main {
     width: 130px;
 }
 
+/* footer styles */
+.footer {
+    max-width: 1000px;
+    margin: 0 auto;
+    border-radius: 8px;
+    background: #FFF4E7;
+}
+
+.footer h5 {
+    color: #424242;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+    padding: 20px;
+}
+
 /* responsive media queries */
 /* mobile view */
 @media screen and (max-width: 576px) {
