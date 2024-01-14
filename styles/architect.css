@@ -159,10 +159,16 @@ main {
     flex: 1;
 }
 
+.feature-img {
+    transform: translateY(100px);
+}
+
 .feature-img img {
 
     width: 100%;
+    transform: scaleY(1.5);
 
+    object-fit: cover;
 }
 
 .ten-years-badge {
